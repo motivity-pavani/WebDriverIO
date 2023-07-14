@@ -1,0 +1,222 @@
+CREATE TABLE users (
+	userID serial PRIMARY KEY,
+	Name VARCHAR ( 50 )  NOT NULL,
+	password VARCHAR ( 150 ) NOT NULL,
+	Email VARCHAR ( 255 ) UNIQUE NOT NULL,
+	isActive BOOLEAN DEFAULT true,
+	isVerify BOOLEAN DEFAULT true,
+	createdAt TIMESTAMP  WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
+
+create or replace procedure USP_CREATE_USER(
+   Name VARCHAR ( 50 ),
+   password VARCHAR ( 150 ), 
+   currentEmail VARCHAR ( 255 )
+)
+language plpgsql    
+as $$
+begin
+   IF EXISTS (SELECT 1  FROM users u where u.Email = currentEmail ) THEN
+    RAISE EXCEPTION 'Email Already Exist';
+   ELSE
+     insert into users (Name,password,Email) values(Name,password,currentEmail);
+   END IF;
+ 
+end;$$
+
+
+	create Table lookup (
+		id serial PRIMARY KEY,
+		title  VARCHAR ( 50 )  NOT NULL,
+		full_name VARCHAR ( 50 )  NOT NULL,
+		isActive BOOLEAN DEFAULT true,
+		parent_id int ,
+		createdAt TIMESTAMP  WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+		createdBy INT
+	);
+	
+
+
+	insert into lookup  (title,full_name,parent_id,createdBy)
+	values ('types','types',0,1);
+	
+	insert into lookup  (title,full_name,parent_id,createdBy)
+	values ('Test Pre Req','Test Pre Req',1,1);
+	
+	insert into lookup  (title,full_name,parent_id,createdBy)
+	values ('Test Steps','Test Steps',1,1);
+	
+	insert into lookup  (title,full_name,parent_id,createdBy)
+	values ('Test Closure','Test Closure',1,1);
+	
+
+
+
+
+create or replace function get_lookup (
+  selected_id INT
+) 
+	returns table (
+		id INT,
+		title  VARCHAR ( 50 ),
+		full_name VARCHAR ( 50 ),
+		isActive BOOLEAN,
+		parent_id int ,
+		createdAt TIMESTAMP WITH TIME ZONE,
+		createdBy INT
+	) 
+	language plpgsql
+as $$
+begin
+	return query 
+		select
+			l.*
+		from
+			lookup l
+		where
+			l.parent_id = selected_id and l.isActive = true;
+end;$$
+
+
+
+drop table actions_config_demo
+
+	create table actions_config_demo (
+	action_id serial PRIMARY KEY,
+	page_name  VARCHAR ( 50 )  NOT NULL,
+	aut INT  NOT NULL,
+	action_name VARCHAR ( 50 ),
+	sub_action_name VARCHAR ( 50 ),
+	action_parameters JSON,
+	sub_action_parameters JSON,
+	noOfFields INT,
+	subActionNoOfFields INT,
+	isActive BOOLEAN DEFAULT true,
+	createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+	createdBy INT,
+	updatedAt TIMESTAMP,
+	updateBy INT 
+	)
+	
+	
+
+	
+	  	create Table testcases_demo (
+		test_case_id serial PRIMARY KEY,
+		TestcaseName VARCHAR ( 50 )  NOT NULL,
+		aut INT  NOT NULL,
+		TestCaseFixtureSteps JSON NOT NULL,
+		TestCaseSteps JSON NOT NULL,
+		TestCaseValidationSteps JSON,
+		TestCaseClosureSteps JSON,
+		totalPayload JSON,
+		isActive BOOLEAN DEFAULT true,
+		status BOOLEAN DEFAULT true,
+		LastRunAt  TIMESTAMP  DEFAULT CURRENT_TIMESTAMP,
+		createdAt TIMESTAMP   DEFAULT CURRENT_TIMESTAMP,
+	    createdBy INT,
+	    updatedAt TIMESTAMP,
+	    updateBy INT 
+	)
+	
+	CREATE TABLE IF NOT EXISTS TestCaseGroup_demo
+(
+TestCaseGroupId serial PRIMARY KEY,
+aut INT  NOT NULL,
+TestGroupName VARCHAR ( 100 ) NOT NULL,
+isActive BOOLEAN DEFAULT true,
+createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+	
+
+CREATE TABLE IF NOT EXISTS GroupMapping_demo
+(
+TestGroupMappingId serial PRIMARY KEY,
+aut INT  NOT NULL,
+testid INT NOT NULL,
+TestCaseGroupId INT not null,
+isActive BOOLEAN DEFAULT true,
+createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+)
+
+drop table SelectTests_demo
+
+CREATE TABLE IF NOT EXISTS SelectTests_demo
+(
+SelectTestID  serial PRIMARY KEY,
+aut INT  NOT NULL,
+TypeID INT,  -- testcase-1 or group-2
+ExecutionDetailsID INT, -- testcaseid or groupid
+isActive BOOLEAN DEFAULT true,
+createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+createdBy INT,
+updatedAt TIMESTAMP,
+updateBy INT,
+lastrunat TIMESTAMP
+)
+
+
+
+CREATE TABLE IF NOT exists aut_dev
+(
+autid  serial PRIMARY KEY,
+autname  VARCHAR ( 50 ) UNIQUE NOT NULL,
+description  VARCHAR ( 50 ),
+isActive BOOLEAN DEFAULT true,
+createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+createdBy INT,
+updatedAt TIMESTAMP,
+updateBy INT
+)
+
+
+CREATE TABLE IF NOT exists autmapping_dev
+(
+autmappingid  serial PRIMARY KEY,
+autid INT not null,
+userid INT not null,
+isActive BOOLEAN DEFAULT true,
+createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+createdBy INT,
+updatedAt TIMESTAMP,
+updateBy INT,
+UNIQUE (autid, userid)
+)
+
+
+select * from testcases_demo where aut = 1 and test_case_id = 1
++
+
+[{"fieldName":"tminuscreationDate","type":"Number","defaltValue":null},{"fieldName":"carrier","type":"String","defaultValue":null},{"fieldName":"productGroup","type":"String","defaultValue":null},{"fieldName":"enrollmentKey","type":"String","defaultValue":null}]
+
+
+select * from testcases_demo
+
+--
+--INSERT INTO testcases_demo (
+--		TestcaseName,
+--		aut,
+--		TestCaseFixtureSteps,
+--		TestCaseSteps,
+--		TestCaseValidationSteps,
+--		TestCaseClosureSteps,
+--		totalPayload,
+--	    createdBy,
+--	    updatedAt,
+--	    updateBy )
+--SELECT TestcaseName,
+--		aut,
+--		TestCaseFixtureSteps,
+--		TestCaseSteps,
+--		TestCaseValidationSteps,
+--		TestCaseClosureSteps,
+--		totalPayload,
+--	    createdBy,
+--	    updatedAt,
+--	    updateBy FROM testcases_demo where test_case_id = 1;
+--	   
+	   
+	   
+	   
+	
