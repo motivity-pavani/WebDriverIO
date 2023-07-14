@@ -1,0 +1,655 @@
+{
+  message: 'TestCase Name: Loginapp - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-02 16:40:52'
+}
+{
+  message: 'ERROR-Execute :- page:loginPage,method:naukriLogin, waitUntil condition failed with the following reason: Method is not implemented',
+  level: 'error',
+  timestamp: '2022-08-02 16:41:00'
+}
+{
+  message: 'TestCase Name: Loginapp - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-02 16:43:18'
+}
+{
+  message: 'ERROR-Execute :- page:loginPage,method:naukriLogin, waitUntil condition failed with the following reason: Method is not implemented',
+  level: 'error',
+  timestamp: '2022-08-02 16:43:34'
+}
+{
+  message: 'TestCase Name: Loginapp - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-02 16:44:42'
+}
+{
+  message: `ERROR-Execute :- page:loginPage,method:naukriLogin, element ("//*[contains(@resource-id, 'textViewLogin')]") still not clickable after 5000ms`,
+  level: 'error',
+  timestamp: '2022-08-02 16:45:00'
+}
+{
+  message: 'TestCase Name: Loginapp - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-02 16:46:10'
+}
+{
+  message: 'ERROR-Execute :- page:loginPage,method:naukriLogin, waitUntil condition failed with the following reason: Method is not implemented',
+  level: 'error',
+  timestamp: '2022-08-02 16:46:27'
+}
+{
+  message: 'TestCase Name: Loginapp - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-02 17:16:55'
+}
+{
+  message: 'TestCase Name: Loginapp - testcasesteps',
+  level: 'info',
+  timestamp: '2022-08-02 17:17:06'
+}
+{
+  message: 'TestCase Name: Loginapp - testcaseclosuresteps',
+  level: 'info',
+  timestamp: '2022-08-02 17:17:07'
+}
+{
+  message: 'TestCase Name: Loginapp - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-02 17:18:05'
+}
+{
+  message: 'TestCase Name: Loginapp - testcasesteps',
+  level: 'info',
+  timestamp: '2022-08-02 17:18:17'
+}
+{
+  message: 'TestCase Name: Loginapp - testcaseclosuresteps',
+  level: 'info',
+  timestamp: '2022-08-02 17:18:18'
+}
+{
+  message: 'TestCase Name: Loginapp - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-02 17:20:17'
+}
+{
+  message: 'TestCase Name: Loginapp - testcasesteps',
+  level: 'info',
+  timestamp: '2022-08-02 17:20:28'
+}
+{
+  message: 'TestCase Name: Loginapp - testcaseclosuresteps',
+  level: 'info',
+  timestamp: '2022-08-02 17:20:30'
+}
+{
+  message: 'TestCase Name: Loginapp - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-02 17:21:48'
+}
+{
+  message: 'ERROR-Execute :- page:loginPage,method:naukriLogin, waitUntil condition failed with the following reason: Method is not implemented',
+  level: 'error',
+  timestamp: '2022-08-02 17:22:05'
+}
+{
+  message: 'TestCase Name: Loginapp - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-02 17:22:57'
+}
+{
+  message: 'ERROR-Execute :- page:loginPage,method:naukriLogin, waitUntil condition failed with the following reason: Method is not implemented',
+  level: 'error',
+  timestamp: '2022-08-02 17:23:14'
+}
+{
+  message: 'TestCase Name: Loginapp - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-02 17:24:16'
+}
+{
+  message: 'TestCase Name: Loginapp - testcasesteps',
+  level: 'info',
+  timestamp: '2022-08-02 17:24:28'
+}
+{
+  message: 'TestCase Name: Loginapp - testcaseclosuresteps',
+  level: 'info',
+  timestamp: '2022-08-02 17:24:29'
+}
+{
+  message: 'TestCase Name: Loginapp - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-02 17:25:43'
+}
+{
+  message: 'ERROR-Execute :- page:loginPage,method:naukriLogin, waitUntil condition failed with the following reason: Method is not implemented',
+  level: 'error',
+  timestamp: '2022-08-02 17:26:00'
+}
+{
+  message: 'TestCase Name: Loginapp - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-02 17:29:01'
+}
+{
+  message: 'TestCase Name: Loginapp - testcasesteps',
+  level: 'info',
+  timestamp: '2022-08-02 17:29:22'
+}
+{
+  message: 'TestCase Name: Loginapp - testcaseclosuresteps',
+  level: 'info',
+  timestamp: '2022-08-02 17:29:23'
+}
+{
+  message: 'TestCase Name: Loginapp - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-02 17:38:10'
+}
+{
+  message: 'TestCase Name: Loginapp - testcasesteps',
+  level: 'info',
+  timestamp: '2022-08-02 17:38:21'
+}
+{
+  message: 'TestCase Name: Loginapp - testcaseclosuresteps',
+  level: 'info',
+  timestamp: '2022-08-02 17:38:22'
+}
+{
+  message: 'TestCase Name: Loginapp - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-02 17:42:28'
+}
+{
+  message: 'ERROR-Execute :- page:loginPage,method:naukriLogin, waitUntil condition failed with the following reason: Method is not implemented',
+  level: 'error',
+  timestamp: '2022-08-02 17:42:50'
+}
+{
+  message: 'TestCase Name: Loginapp - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-02 18:04:31'
+}
+{
+  message: 'TestCase Name: Loginapp - testcasesteps',
+  level: 'info',
+  timestamp: '2022-08-02 18:04:46'
+}
+{
+  message: 'TestCase Name: Loginapp - testcaseclosuresteps',
+  level: 'info',
+  timestamp: '2022-08-02 18:04:47'
+}
+{
+  message: 'TestCase Name: Loginapp - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-02 18:08:45'
+}
+{
+  message: 'ERROR-Execute :- page:loginPage,method:naukriLogin, setText is not defined',
+  level: 'error',
+  timestamp: '2022-08-02 18:08:59'
+}
+{
+  message: 'TestCase Name: Loginapp - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-02 18:10:53'
+}
+{
+  message: 'ERROR-Execute :- page:loginPage,method:naukriLogin, waitUntil condition failed with the following reason: Method is not implemented',
+  level: 'error',
+  timestamp: '2022-08-02 18:11:10'
+}
+{
+  message: 'TestCase Name: Loginapp - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-02 18:15:47'
+}
+{
+  message: 'ERROR-Execute :- page:loginPage,method:naukriLogin, locator is not defined',
+  level: 'error',
+  timestamp: '2022-08-02 18:16:04'
+}
+{
+  message: 'TestCase Name: Loginapp - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-02 18:18:11'
+}
+{
+  message: 'TestCase Name: Loginapp - testcasesteps',
+  level: 'info',
+  timestamp: '2022-08-02 18:18:33'
+}
+{
+  message: 'TestCase Name: Loginapp - testcaseclosuresteps',
+  level: 'info',
+  timestamp: '2022-08-02 18:18:34'
+}
+{
+  message: 'TestCase Name: Loginapp - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-02 18:20:08'
+}
+{
+  message: 'TestCase Name: Loginapp - testcasesteps',
+  level: 'info',
+  timestamp: '2022-08-02 18:20:29'
+}
+{
+  message: 'TestCase Name: Loginapp - testcaseclosuresteps',
+  level: 'info',
+  timestamp: '2022-08-02 18:20:30'
+}
+{
+  message: 'TestCase Name: Loginapp - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-03 11:51:45'
+}
+{
+  message: 'TestCase Name: Loginapp - testcasesteps',
+  level: 'info',
+  timestamp: '2022-08-03 11:52:06'
+}
+{
+  message: 'TestCase Name: Loginapp - testcaseclosuresteps',
+  level: 'info',
+  timestamp: '2022-08-03 11:52:07'
+}
+{
+  message: 'TestCase Name: Loginapp - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-03 13:44:18'
+}
+{
+  message: 'TestCase Name: Loginapp - testcasesteps',
+  level: 'info',
+  timestamp: '2022-08-03 13:44:39'
+}
+{
+  message: 'TestCase Name: Loginapp - testcaseclosuresteps',
+  level: 'info',
+  timestamp: '2022-08-03 13:44:41'
+}
+{
+  message: 'TestCase Name: Loginapp - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-03 13:52:27'
+}
+{
+  message: `ERROR-Execute :- page:loginPage,method:naukriLogin, Can't call click on element with selector "//*[contains(@text, 'Continue')]" because element wasn't found`,
+  level: 'error',
+  timestamp: '2022-08-03 13:53:02'
+}
+{
+  message: 'TestCase Name: Loginapp - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-03 13:55:01'
+}
+{
+  message: 'TestCase Name: Loginapp - testcasesteps',
+  level: 'info',
+  timestamp: '2022-08-03 13:55:30'
+}
+{
+  message: 'TestCase Name: Loginapp - testcaseclosuresteps',
+  level: 'info',
+  timestamp: '2022-08-03 13:55:31'
+}
+{
+  message: 'TestCase Name: Loginapp - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-03 18:04:33'
+}
+{
+  message: `ERROR-Execute :- page:loginPage,method:naukriLogin, Can't call click on element with selector "//*[contains(@resource-id, 'textViewLogin')]" because element wasn't found`,
+  level: 'error',
+  timestamp: '2022-08-03 18:04:55'
+}
+{
+  message: 'TestCase Name:  - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-05 11:51:50'
+}
+{
+  message: 'TestCase Name:  - testcasesteps',
+  level: 'info',
+  timestamp: '2022-08-05 11:51:51'
+}
+{
+  message: 'EazeHRlogin is not found',
+  level: 'error',
+  timestamp: '2022-08-05 11:51:51'
+}
+{
+  message: 'TestCase Name:  - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-05 12:07:25'
+}
+{
+  message: 'TestCase Name:  - testcasesteps',
+  level: 'info',
+  timestamp: '2022-08-05 12:07:26'
+}
+{
+  message: 'EazeHRlogin is not found',
+  level: 'error',
+  timestamp: '2022-08-05 12:07:26'
+}
+{
+  message: 'TestCase Name:  - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-05 12:09:32'
+}
+{
+  message: 'TestCase Name:  - testcasesteps',
+  level: 'info',
+  timestamp: '2022-08-05 12:09:33'
+}
+{
+  message: 'EazeHRlogin is not found',
+  level: 'error',
+  timestamp: '2022-08-05 12:09:34'
+}
+{
+  message: 'TestCase Name:  - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-05 12:15:27'
+}
+{
+  message: 'TestCase Name:  - testcasesteps',
+  level: 'info',
+  timestamp: '2022-08-05 12:15:28'
+}
+{
+  message: 'EazeHRlogin is not found',
+  level: 'error',
+  timestamp: '2022-08-05 12:15:28'
+}
+{
+  message: 'TestCase Name:  - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-05 12:27:08'
+}
+{
+  message: 'TestCase Name:  - testcasesteps',
+  level: 'info',
+  timestamp: '2022-08-05 12:27:09'
+}
+{
+  message: 'EazeHRlogin is not found',
+  level: 'error',
+  timestamp: '2022-08-05 12:27:10'
+}
+{
+  message: 'TestCase Name:  - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-05 12:47:02'
+}
+{
+  message: 'TestCase Name:  - testcasesteps',
+  level: 'info',
+  timestamp: '2022-08-05 12:47:03'
+}
+{
+  message: 'EazeHRlogin is not found',
+  level: 'error',
+  timestamp: '2022-08-05 12:47:03'
+}
+{
+  message: 'TestCase Name:  - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-05 13:16:21'
+}
+{
+  message: 'TestCase Name:  - testcasesteps',
+  level: 'info',
+  timestamp: '2022-08-05 13:16:22'
+}
+{
+  message: 'EazeHRlogin is not found',
+  level: 'error',
+  timestamp: '2022-08-05 13:16:23'
+}
+{
+  message: 'TestCase Name:  - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-05 13:18:00'
+}
+{
+  message: 'TestCase Name:  - testcasesteps',
+  level: 'info',
+  timestamp: '2022-08-05 13:18:01'
+}
+{
+  message: 'EazeHRlogin is not found',
+  level: 'error',
+  timestamp: '2022-08-05 13:18:01'
+}
+{
+  message: 'TestCase Name:  - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-05 13:22:31'
+}
+{
+  message: 'TestCase Name:  - testcasesteps',
+  level: 'info',
+  timestamp: '2022-08-05 13:22:32'
+}
+{
+  message: 'ERROR-Execute :- page:EazeHRloginpage,method:ezwelcomepage, commonMethods.waitForDisplayed is not a function',
+  level: 'error',
+  timestamp: '2022-08-05 13:22:32'
+}
+{
+  message: 'TestCase Name:  - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-05 13:25:08'
+}
+{
+  message: 'TestCase Name:  - testcasesteps',
+  level: 'info',
+  timestamp: '2022-08-05 13:25:09'
+}
+{
+  message: 'TestCase Name:  - testcaseclosuresteps',
+  level: 'info',
+  timestamp: '2022-08-05 13:25:12'
+}
+{
+  message: 'TestCase Name:  - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-05 13:30:14'
+}
+{
+  message: 'TestCase Name:  - testcasesteps',
+  level: 'info',
+  timestamp: '2022-08-05 13:30:15'
+}
+{
+  message: 'TestCase Name:  - testcaseclosuresteps',
+  level: 'info',
+  timestamp: '2022-08-05 13:30:18'
+}
+{
+  message: 'TestCase Name: EazeHRloginpage - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-05 15:15:54'
+}
+{
+  message: 'TestCase Name: EazeHRloginpage - testcasesteps',
+  level: 'info',
+  timestamp: '2022-08-05 15:15:55'
+}
+{
+  message: 'TestCase Name: EazeHRloginpage - testcaseclosuresteps',
+  level: 'info',
+  timestamp: '2022-08-05 15:16:04'
+}
+{
+  message: 'TestCase Name: EazeHRloginpage - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-05 15:38:42'
+}
+{
+  message: 'TestCase Name: EazeHRloginpage - testcasesteps',
+  level: 'info',
+  timestamp: '2022-08-05 15:38:44'
+}
+{
+  message: 'TestCase Name: EazeHRloginpage - testcaseclosuresteps',
+  level: 'info',
+  timestamp: '2022-08-05 15:38:52'
+}
+{
+  message: 'TestCase Name: EazeHRloginpage - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-05 16:40:12'
+}
+{
+  message: 'TestCase Name: EazeHRloginpage - testcasesteps',
+  level: 'info',
+  timestamp: '2022-08-05 16:40:13'
+}
+{
+  message: 'ERROR-Execute :- page:EazeHRloginpage,method:ezwelcomepage, return$ is not defined',
+  level: 'error',
+  timestamp: '2022-08-05 16:40:27'
+}
+{
+  message: 'TestCase Name: EazeHRloginpage - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-05 16:47:36'
+}
+{
+  message: 'TestCase Name: EazeHRloginpage - testcasesteps',
+  level: 'info',
+  timestamp: '2022-08-05 16:47:45'
+}
+{
+  message: 'TestCase Name: EazeHRloginpage - testcaseclosuresteps',
+  level: 'info',
+  timestamp: '2022-08-05 16:47:53'
+}
+{
+  message: 'TestCase Name: EazeHRloginpage - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-05 16:52:28'
+}
+{
+  message: 'TestCase Name: EazeHRloginpage - testcasesteps',
+  level: 'info',
+  timestamp: '2022-08-05 16:52:29'
+}
+{
+  message: 'TestCase Name: EazeHRloginpage - testcaseclosuresteps',
+  level: 'info',
+  timestamp: '2022-08-05 16:52:39'
+}
+{
+  message: 'TestCase Name: EazeHRloginpage - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-05 17:01:13'
+}
+{
+  message: 'TestCase Name: EazeHRloginpage - testcasesteps',
+  level: 'info',
+  timestamp: '2022-08-05 17:01:14'
+}
+{
+  message: 'TestCase Name: EazeHRloginpage - testcaseclosuresteps',
+  level: 'info',
+  timestamp: '2022-08-05 17:01:24'
+}
+{
+  message: 'TestCase Name: EazeHRloginpage - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-05 17:08:51'
+}
+{
+  message: 'TestCase Name: EazeHRloginpage - testcasesteps',
+  level: 'info',
+  timestamp: '2022-08-05 17:08:52'
+}
+{
+  message: 'TestCase Name: EazeHRloginpage - testcaseclosuresteps',
+  level: 'info',
+  timestamp: '2022-08-05 17:09:01'
+}
+{
+  message: 'TestCase Name: EazeHRloginpage - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-05 17:39:37'
+}
+{
+  message: 'TestCase Name: EazeHRloginpage - testcasesteps',
+  level: 'info',
+  timestamp: '2022-08-05 17:39:38'
+}
+{
+  message: 'TestCase Name: EazeHRloginpage - testcaseclosuresteps',
+  level: 'info',
+  timestamp: '2022-08-05 17:39:52'
+}
+{
+  message: 'TestCase Name: EazeHRloginpage - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-05 18:33:01'
+}
+{
+  message: 'TestCase Name: EazeHRloginpage - testcasesteps',
+  level: 'info',
+  timestamp: '2022-08-05 18:33:03'
+}
+{
+  message: 'ERROR-Execute :- page:EazeHRloginpage,method:HamburgurMenu, moment is not defined',
+  level: 'error',
+  timestamp: '2022-08-05 18:33:20'
+}
+{
+  message: 'TestCase Name: EazeHRloginpage - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-08 13:46:18'
+}
+{
+  message: 'TestCase Name: EazeHRloginpage - testcasesteps',
+  level: 'info',
+  timestamp: '2022-08-08 13:46:20'
+}
+{
+  message: 'ERROR-Execute :- page:EazeHRloginpage,method:HamburgurMenu, moment is not defined',
+  level: 'error',
+  timestamp: '2022-08-08 13:46:36'
+}
+{
+  message: 'TestCase Name: EazeHRloginpage - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-08 14:09:49'
+}
+{
+  message: 'TestCase Name: EazeHRloginpage - testcasesteps',
+  level: 'info',
+  timestamp: '2022-08-08 14:09:50'
+}
+{
+  message: 'TestCase Name: EazeHRloginpage - testcaseclosuresteps',
+  level: 'info',
+  timestamp: '2022-08-08 14:10:04'
+}
+{
+  message: 'TestCase Name: EazeHRloginpage - testcasefixturesteps',
+  level: 'info',
+  timestamp: '2022-08-08 14:15:13'
+}
+{
+  message: 'TestCase Name: EazeHRloginpage - testcasesteps',
+  level: 'info',
+  timestamp: '2022-08-08 14:15:14'
+}
+{
+  message: 'TestCase Name: EazeHRloginpage - testcaseclosuresteps',
+  level: 'info',
+  timestamp: '2022-08-08 14:15:28'
+}

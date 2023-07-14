@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "types": [
+            "node",
+            "webdriverio/async",
+            "@wdio/mocha-framework"
+        ]
+    },
+    "include": [
+        "**/*.json",
+        "test/pageobjects/*.*.js",
+        "test/specs/*.js",
+        "test/utilities/methods/*.*js",
+        "test/common/*.*js",
+        "test/projects/*/*.*js",
+        "test/projects/*/*/*.*js",
+        "test/utilities/*.js",
+        "webdriverio/async",
+        "@wdio/mocha-framework"
+    ]
+}

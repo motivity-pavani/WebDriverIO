@@ -1,0 +1,15 @@
+CypressAutomation/node_modules
+WDIO_Project/*/node_modules
+WDIO_Project/*/allure-results
+WDIO_Project/*/allure-report
+
+WDIO_Project/**/node_modules
+WDIO_Project/**/allure-results
+WDIO_Project/**/allure-report
+
+**/**/node_modules
+**/**/allure-results
+**/**/allure-report
+*/*/node_modules
+*/*/allure-results
+*/*/allure-report
